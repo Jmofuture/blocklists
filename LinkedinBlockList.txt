@@ -1,7 +1,52 @@
-https://www.linkedin.com/flagship-web/rsc-action/actions/server-request?sduiid=com.linkedin.sdui.infra.register.cooloff.activity&parentSpanId=Vi8U9TJQk3U%3D
-https://www.linkedin.com/realtime/realtimeFrontendClientConnectivityTracking?action=sendHeartbeat
-https://www.linkedin.com/Pa1FOe_96X54V
-https://www.linkedin.com/rest/trackingApiService/track
-https://www.linkedin.com/li/tscp/sct
-https://www.linkedin.com/7MUFHs-G4AoEe
-https://googleads.g.doubleclick.net/pagead/viewthroughconversion/979305453/
+! Title: LinkedIn Tracking Blocklist
+! Description: Bloquea dominios de tracking y analytics de LinkedIn (Insight Tag, Bizographics, Adsymptotic, Oribi)
+! Homepage: https://gist.github.com
+! License: Public Domain
+! Expires: 7 days
+! Last modified: 2026-04-17
+! Version: 2
+
+! ============================================================
+! INSIGHT TAG / PIXEL DE CONVERSIÓN
+! Usados para rastrear visitas a sitios de terceros
+! ============================================================
+||snap.licdn.com^
+||px.ads.linkedin.com^
+||px4.ads.linkedin.com^
+||dc.ads.linkedin.com^
+
+! ============================================================
+! BIZOGRAPHICS
+! Targeting B2B y audiencias profesionales
+! ============================================================
+||sjs.bizographics.com^
+||bizographics.com^
+
+! ============================================================
+! ADSYMPTOTIC
+! Gestión de audiencias y segmentación
+! ============================================================
+||p.adsymptotic.com^
+||adsymptotic.com^
+
+! ============================================================
+! ORIBI (adquirida por LinkedIn)
+! Analytics y atribución de conversiones
+! ============================================================
+||cdn.linkedin.oribi.io^
+||gw.linkedin.oribi.io^
+
+! ============================================================
+! LNKD.IN
+! Acortador de URLs con tracking en emails y posts
+! Bloquear esto rompe redirecciones de links de LinkedIn
+! ============================================================
+||lnkd.in^
+
+! ============================================================
+! GOOGLE ADS - DOUBLECLICK
+! Pixel de conversión de Google Ads (tracking cross-site)
+! ============================================================
+||googleads.g.doubleclick.net^
+
+! ============================================================
